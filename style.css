@@ -5,16 +5,21 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 25px;
     height: 500px;
     width: 500px;
 }
 .square {
-    border: 3px solid black;
+    border: 0.5px dashed white;
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
     width: 10%;
+    background-color: black;
+    opacity: 0.4;
+    justify-content: center;
+    align-items: center;
 }
 
 .squareBase {
@@ -23,4 +28,8 @@ body {
     justify-content: space-evenly;
     flex: 1 1 auto;
     height: 10%;
+}
+.btnDiv {
+    display: flex;
+    justify-content: center;
 }
