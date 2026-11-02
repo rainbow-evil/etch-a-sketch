@@ -1,0 +1,26 @@
+body {
+    background-color: palevioletred;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    height: 500px;
+    width: 500px;
+}
+.square {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    width: 10%;
+}
+
+.squareBase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    height: 10%;
+}
